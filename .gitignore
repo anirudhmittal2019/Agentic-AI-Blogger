@@ -1,0 +1,7 @@
+﻿.env
+.adk/
+__pycache__/
+*.pyc
+.venv/
+posts/
+evals/results.json

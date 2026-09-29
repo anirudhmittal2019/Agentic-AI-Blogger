@@ -1,0 +1,12 @@
+[
+  "Building REST APIs with FastAPI",
+  "Retrieval-augmented generation best practices",
+  "Model Context Protocol (MCP) explained",
+  "Prompt injection attacks on LLM agents",
+  "Async programming in Python",
+  "Vector databases: how they work",
+  "Rate limiting and retries for API clients",
+  "Docker multi-stage builds",
+  "Evaluating LLM agents",
+  "Structured output from LLMs with Pydantic"
+]
