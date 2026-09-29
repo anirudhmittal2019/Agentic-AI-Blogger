@@ -37,18 +37,3 @@ pip install -r requirements.txt
 adk web                      # pick blog_agent, send a topic, then reply "approve"
 python -m evals.run_eval     # metrics over 10 topics
 ```
-
-## Results (fill in from `evals/results.json`)
-| Metric | Value |
-|---|---|
-| Approval rate | |
-| Avg critic score | |
-| Avg planner / writer rounds | |
-| Avg sources per post | |
-| Avg tokens per post | |
-| Avg latency (s) | |
-
-## Known limitations
-- The critic is an LLM judging an LLM. `sources` and `words` in the eval are independent checks.
-- Approval gate matches simple approval messages; production would use ADK's tool-confirmation flow.
-- Next: tracing (Langfuse/OpenTelemetry), cheaper model for critics, deployment behind FastAPI.
